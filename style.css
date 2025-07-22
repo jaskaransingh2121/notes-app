@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #ff4fe5 0%, #529aff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.input-note {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.input-note input {
+    flex: 1;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.input-note button {
+    background-color: rgb(250, 99, 24);
+    color: rgb(255, 247, 247);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+.input-note button:hover {
+    background: orangered;
+}
+
+#noteslist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#noteslist li {
+    background: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+#noteslist li button {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#notesList li button:hover {
+    background: #e60000;
+}
