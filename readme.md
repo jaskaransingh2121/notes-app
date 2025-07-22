@@ -27,7 +27,7 @@ You can add, delete, and store notes in **local storage**, so your notes will st
 ---
 
 ## 🔗 Live Demo
-[Click here to see Live Demo](your-live-demo-link)
+[Click here to see Live Demo](https://notevibee-app.netlify.app/)
 
 
 ---
